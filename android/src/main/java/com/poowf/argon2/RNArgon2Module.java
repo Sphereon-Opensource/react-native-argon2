@@ -16,6 +16,8 @@ import com.lambdapioneer.argon2kt.Argon2Kt;
 import com.lambdapioneer.argon2kt.Argon2KtResult;
 import com.lambdapioneer.argon2kt.Argon2Mode;
 
+import java.math.BigInteger;
+
 public class RNArgon2Module extends ReactContextBaseJavaModule {
     private ReactContext mReactContext;
 
