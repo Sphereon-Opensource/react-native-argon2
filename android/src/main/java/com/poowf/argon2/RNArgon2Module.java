@@ -33,7 +33,10 @@ public class RNArgon2Module extends ReactContextBaseJavaModule {
     public void argon2(String password, String salt, ReadableMap config, Promise promise) {
         try {
             final byte[] passwordBytes = password.getBytes("UTF-8");
-            final byte[] saltBytes = salt.getBytes("UTF-8");
+
+            final byte[] saltInputBytes = new BigInteger(salt, 16).toByteArray();
+            byte[] saltBytes = new byte[32];
+            System.arraycopy(saltInputBytes, saltInputBytes.length - 32, saltBytes, 0, 32);
 
             Integer iterations = config.hasKey("iterations") ? new Integer(config.getInt("iterations")) : new Integer(2);
             Integer memory = config.hasKey("memory") ? new Integer(config.getInt("memory")) : new Integer(32 * 1024);
