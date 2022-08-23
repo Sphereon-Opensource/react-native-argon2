@@ -1,6 +1,6 @@
 {
   "name": "@sphereon/react-native-argon2",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "React Native Wrapper around Argon2",
   "main": "index.js",
   "repository": {
@@ -28,7 +28,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "standard-version": "^9.3.0"
+    "standard-version": "^9.5.0",
+    "react-native": "^0.68.3"
+  },
+  "peerDependencies": {
+    "react-native": "^0.60"
   },
   "bugs": {
     "url": "https://github.com/poowf/react-native-argon2/issues"

@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.0.7](https://github.com/poowf/react-native-argon2/compare/v2.0.1...v2.0.7) (2022-08-23)
+
+
+### Maintenance
+
+* update yarn.lock ([9345aaa](https://github.com/poowf/react-native-argon2/commit/9345aaa447263e07a0afa589ab88a7b6b9bb561c))
+* use maven central instead of jcenter ([269c64e](https://github.com/poowf/react-native-argon2/commit/269c64e91b188222ad60790708d4d9c36a3852a6))
+
 ### [2.0.1](https://github.com/poowf/react-native-argon2/compare/v2.0.0...v2.0.1) (2021-06-20)
 
 
