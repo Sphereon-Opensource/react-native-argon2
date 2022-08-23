@@ -8,7 +8,7 @@ Android: [argon2kt](//github.com/lambdapioneer/argon2kt)
 
 ## Getting started
 ```bash
-npm install react-native-argon2 --save
+npm install @sphereon/react-native-argon2 --save
 ```
 
 Compatibility Table
@@ -21,7 +21,7 @@ Compatibility Table
 ## Usage
 
 ```javascript
-import argon2 from 'react-native-argon2';
+import argon2 from '@sphereon/react-native-argon2';
 const password = 'password';
 const salt = '1234567891011121314151617181920212223242526272829303132333435363';
 const result = await argon2(password, salt, {});
