@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.0.9](https://github.com/poowf/react-native-argon2/compare/v2.0.7...v2.0.9) (2023-03-11)
+
+
+### Maintenance
+
+* prep for next dev cycle ([92a01a8](https://github.com/poowf/react-native-argon2/commit/92a01a89d0498dd96ad97b0131fa46794618577b))
+* update readme and yarn.lock ([93e2a7a](https://github.com/poowf/react-native-argon2/commit/93e2a7ad53cf2da1502ac1a2dc1b633e337961cc))
+
 ### [2.0.7](https://github.com/poowf/react-native-argon2/compare/v2.0.1...v2.0.7) (2022-08-23)
 
 
